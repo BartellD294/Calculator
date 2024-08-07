@@ -8,8 +8,6 @@ def main():
     WIDTH = int(HEIGHT*(4/5))
     root.geometry(str(WIDTH)+"x"+str(HEIGHT))
     buttons = []
-    #inputs = tk.Frame(master=root, width=WIDTH, height=HEIGHT/5,bg = "grey")
-    #inputs.place(x=0, y=0)
     global txt
     txt=tk.StringVar()
 
@@ -62,10 +60,6 @@ def clear_command():
     intext = ""
     txt.set(intext)
 
-    
-        
-
-#print_window = tk.Entry(master=root, width=WIDTH, height=HEIGHT/5)
 
 
 if __name__ == '__main__':

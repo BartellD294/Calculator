@@ -1,0 +1,1 @@
+Simple calculator project that supports basic arithmetic using a Tkinter GUI.
